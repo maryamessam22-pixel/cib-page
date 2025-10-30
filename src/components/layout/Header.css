@@ -1,4 +1,26 @@
 .hero{
     width:100%;
+   
     
+}
+
+.txt{
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+   margin-left: 6%;
+   margin-top: 20%;
+   line-height: 1.5;
+
+}
+.txth1{
+    font-weight: 200;
+    
+
+}
+
+.txth2{
+    font-weight: 200;
+    
+
 }
