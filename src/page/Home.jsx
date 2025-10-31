@@ -31,6 +31,9 @@ import PIC3 from '../Assets/PIC3.png';
 import web from '../Assets/web.png';
 import call from '../Assets/call.png';
 import branch from '../Assets/branch.png';
+import Footer from '../components/layout/Footer';
+
+
 
 
 const Home = () => {
@@ -85,7 +88,8 @@ const Home = () => {
         
                  <div className='buying'>
                    <SmallMenuTap title =" Buying a home can be an emotional process, but it rsquo;s important to approach it logically"/>
-                   </div>
+                   </div>import Footer from './../components/layout/Footer';
+
 
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
@@ -350,19 +354,17 @@ const Home = () => {
               </div>  
              </div>
         </div> 
-             </section>
+ </section>
 
 
+<section className='FOOTER'>
+  
+  <div className='txt-footer'>
+    <Footer/>
+  </div>
 
-
-
-
-
-
-
-
-
-
+          
+</section>
 
 
     </>
