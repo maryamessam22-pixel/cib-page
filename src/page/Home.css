@@ -72,6 +72,8 @@ align-items: flex-start;
     width: 360px;
     margin-top: 0;
     padding-top: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .readdiv{
@@ -106,4 +108,26 @@ align-items: flex-start;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+}
+
+.newsbtn{
+    margin-top: 7%;
+    margin-bottom: 1%;
+}
+
+.NEWS_SECTION{
+   display: flex;
+   justify-content: center;
+ gap: 5px;
+ background-color: #f2f2f2;
+padding: 60px 0;
+margin-top: 2%;
+
+}
+.NC{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0;
+    padding: 0;
 }

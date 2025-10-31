@@ -1,0 +1,22 @@
+.textnews{
+
+font-size: 16px;
+ font-family: 'Arial', sans-serif;
+
+ color: black;
+ font-weight: 200;
+margin-top: 1%;
+margin-bottom: 0;
+}
+
+.textnews2{
+
+font-size: 20px;
+ font-family: 'Arial', sans-serif;
+margin-top: 1%;
+
+margin-bottom: 1%;
+color: #1858A8;
+font-weight: 700;
+
+}

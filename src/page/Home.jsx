@@ -14,6 +14,10 @@ import right from '../Assets/right.png';
 import left2 from '../Assets/left2.png';
 import mid2 from '../Assets/mid2.png';
 import right2 from '../Assets/right2.png';
+import NewsCard from '../components/common/NewsCard';
+import img50 from '../Assets/img50.png';
+import CIB from '../Assets/CIB.jpg';
+import CIB2 from '../Assets/CIB2.png';
 
 
 const Home = () => {
@@ -65,7 +69,11 @@ const Home = () => {
          <div className='leftcard'>
               <img src={left2} alt="left2" />
                 <CenterCard centercard ="Buying and making a home"/>
-                <p className='buying'>Buying a home can be an emotional process, but it rsquo;s important to approach it logically </p>
+        
+                 <div className='buying'>
+                   <SmallMenuTap title =" Buying a home can be an emotional process, but it rsquo;s important to approach it logically"/>
+                   </div>
+
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
                 </div>
@@ -74,7 +82,10 @@ const Home = () => {
              <div className='leftcard'>
               <img src={mid2} alt="mid2" />
                 <CenterCard centercard ="Traveling on a budget"/>
-                <p className='buying'>So for all of you travelers, take a vacation without spending a fortune with these helpful tips and tricks:</p>
+                <div className='buying'>
+                   <SmallMenuTap title =" So for all of you travelers, take a vacation without spending a fortune with  helpful tips and tricks:"/>
+                   </div>
+                {/* <p className='buying'>So for all of you travelers, take a vacation without spending a fortune with these helpful tips and tricks:</p> */}
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
                 </div>
@@ -83,7 +94,10 @@ const Home = () => {
              <div className='leftcard'>
               <img src={right2} alt="right2" />
                 <CenterCard centercard ="University life tips"/>
-                <p className='buying'>The impact of a good education can be transformative. </p>
+               
+                <div className='buying'>
+                   <SmallMenuTap title =" The impact of a good education can be transformative. "/>
+                   </div>
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
                 </div>
@@ -94,14 +108,66 @@ const Home = () => {
            <Btn title="View More"/>  
        </div>
            
+    
+
+    <div  className='newsbtn'>
+            <SectionTitle  sectitle  ="News"/>
+         </div>
+    <section className='NEWS_SECTION'>
+         
+        <NewsCard img={img50} />
+    <div className='NC'>
+        <NewsCard  text="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI 
+                         Capital to Successfully Closes the Seventh Securitization Bond Issuance for 
+                         Halan Consumer Finance, Worth EGP 3.4 Billion."/>
+
+        <NewsCard  text2="Commercial International Bank (CIB) Has Partnered
+                         with CI Capital to Successfully Closes the Seventh Securitization Bond Issuance for Halan
+                         ConsumerFinance, Worth EGP 3.4 Billion"/>
    
+       <NewsCard  text="CIB, Egypt's leading and largest private sector bank, has successfully partnered
+                        with CI Capital to complete the seventh issuance for Halan Consumer Finance,
+                        valued at EGP 3.4 billion  "/>
+      </div>
+
+    </section>
+
+
+ <section className='NEWS_SECTION'>
+     <NewsCard img={CIB2} />
+        <div className='NC'>
+              <NewsCard  text="08/09/2025 - Commercial International Bank (CIB) Successfully Closes EGP 
+                         2.3 Billion Securitization Bond Issuance for GlobalCorp Financial Services"/>
+
+              <NewsCard  text2="Commercial International Bank (CIB) Successfully Closes EGP 2.3 Billion Securitization Bond Issuance for GlobalCorp Financial Services"/>
+      
+              <NewsCard  text="CIB, Egypt’s leading and largest private-sector bank, has successfully completed its seventh securitization bond issuance for GlobalCorp FinancialServices, worth EGP 2.3 billion.  "/>
+       </div>
+ </section>  
 
 
 
 
 
+  <section className='NEWS_SECTION'>
+     <NewsCard img={CIB} />
+        <div className='NC'>
+              <NewsCard  text="21/08/2025 - Commercial International Finance Company (CIFC) Records EGP 
+                               4.1 billion in Its First Year of Operations"/>
+
+              <NewsCard  text2="Commercial International Finance Company (CIFC) 
+                                Records EGP 4.1 billion in Its First Year of Operations"/>
+      
+              <NewsCard  text="CIB, Egypt’s leading and largest private-sector bank is pleased to announce 
+                               that its subsidiary, CIFC, has delivered remarkable results since its inception in 
+                               April 2024..  "/>
+       </div>
+ </section>  
 
 
+ <div className='viewmorebtn'>
+           <Btn title="View  All News"/>  
+       </div>
 
     </>
 );

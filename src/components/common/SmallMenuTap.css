@@ -1,7 +1,7 @@
 .small-container{
       display: flex;
     flex-direction: row;
-         text-align: center;
+
     align-items: center;
     gap: 20px;
   color: rgb(0, 0, 0);
