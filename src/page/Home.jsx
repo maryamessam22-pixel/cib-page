@@ -20,6 +20,14 @@ import CIB from '../Assets/CIB.jpg';
 import CIB2 from '../Assets/CIB2.png';
 import Handshakeimg from '../Assets/handshakimg.png';
 
+import one from '../Assets/1.png';
+import two from '../Assets/2.png';
+import three from '../Assets/3.png';
+
+import one1 from '../Assets/one1.png';
+import PIC2 from '../Assets/PIC2.png';
+import PIC3 from '../Assets/PIC3.png';
+
 const Home = () => {
     return ( 
  <>  
@@ -187,11 +195,114 @@ const Home = () => {
     </section>
 
 
-       <div className='both'>
+      
+
+
+
+<section className='CARDSSS_SUS'>
+ <div className='SUSMAINMAIN'>
+   <div className='both'>
           <SubTitle subtitle ="S  u  s  t  a  i  n  a  b  l  e    f  i  n  a  n  c  e"/>
          <SectionTitle  sectitle  ="Sustainability is an integral part of the way we work"/>
-
        </div>
+  <div className='SUSMAIN'>
+     <div className='sus'>
+              <img src={one} alt="left2" />
+        
+                 <div className='txt2'>
+                   <SmallMenuTap title =" S&P/EGX ESG Index"/>
+                   </div>
+
+         
+             </div>
+
+             <div className='sus'>
+              <img src={two} alt="mid2" />
+
+                <div className='txt2'>
+                   <SmallMenuTap title =" Bloomberg Gender Equality Index "/>
+                   </div>
+               
+             </div>
+
+             <div className='sus'>
+              <img src={three} alt="right2" />
+               
+                <div className='txt2'>
+                   <SmallMenuTap title =" FTSE4Good Index "/>
+                   </div>
+
+             </div>
+         
+
+          
+
+    </div>
+ <div className='LEARNBTN'>
+           <Btn title="Learn More"/>  
+       </div>
+</div>
+    </section>
+
+
+
+
+<section className='CARDSSS_SUS'>
+  <div className='SUSMAINMAIN'>
+      <div className='both'>
+          <SubTitle subtitle ="A w a r d s"/>
+         <SectionTitle  sectitle  =" CIB's integrity and quality are recognized internationally"/>
+       </div>
+  <div className='SUSMAIN'>
+     <div className='sus'>
+              <img src={one1} alt="left2" />
+        
+                 <div className='txt2'>
+                   <SmallMenuTap title =" Best Private Bank in Egypt"/>
+                   <p className='TWO'>Euromoney - 2023</p>
+                   </div>
+
+         
+             </div>
+
+             <div className='sus'>
+              <img src={PIC2} alt="mid2" />
+
+                <div className='txt2'>
+                   <SmallMenuTap title ="Best Mergers & Acquisitions Deal in MENA "/>
+                   <p className='TWO'>EMEA Finance - 2023 </p>
+                   </div>
+               
+             </div>
+
+             <div className='sus'>
+              <img src={PIC3} alt="right2" />
+               
+                <div className='txt2'>
+                   <SmallMenuTap title ="Best Bank in Egypt "/>
+                   <p className='TWO'>Euromoney - 2023</p>
+                   </div>
+
+             </div>
+          </div>
+       <div className='LEARNBTN'>
+           <Btn title="See all our awards"/>  
+       </div>
+       </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
