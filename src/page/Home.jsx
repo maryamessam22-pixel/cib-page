@@ -4,6 +4,8 @@ import Nav from '../components/layout/Nav';
 import Header from '../components/layout/Header';
 import Btn from './../components/common/Btn';
 import SmallMenuTap from '../components/common/SmallMenuTap';
+import SectionTitle from '../components/common/SectionTitle';
+
 
 
 const Home = () => {
@@ -24,8 +26,7 @@ const Home = () => {
                 <SmallMenuTap title ="Awards"/>
              </div>
                 
-      
-      
+            <SectionTitle sectitle ="A p p l y  O n l i n e"/>
     </>
 );
 }

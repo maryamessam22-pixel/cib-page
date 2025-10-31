@@ -1,0 +1,10 @@
+.sec-title{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
