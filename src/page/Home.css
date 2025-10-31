@@ -3,3 +3,23 @@ body{
 }
 
 
+.btnn{
+    position: absolute;
+    margin-top: 33%;
+    margin-left:6% ;
+    
+}
+
+.small{
+ width: 100%;
+  background-color: #EDEDED;
+      height: 70px;
+       display: flex;
+    flex-direction: row;
+         text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+
+    
+}

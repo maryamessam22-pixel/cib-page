@@ -17,8 +17,7 @@ const Nav = () => {
                 <MainMenuTap title ="Learning Center "/>
                 <MainMenuTap title ="Careers "/>
                 <MainMenuTap title ="Others"/>
-                
-          
+               
       </nav>
 
       
