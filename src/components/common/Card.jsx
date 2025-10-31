@@ -7,6 +7,7 @@ const Card = (props) => {
     <div className='divclass'>
 
        <p className="card"> {props.card}</p>
+       
     </div>
      
     

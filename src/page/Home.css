@@ -49,3 +49,54 @@ align-items: center;
           margin-top: 5%;
 
 }
+
+
+.leftcard{
+ width: 350px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+     padding: 30px;
+gap: 4%;
+justify-content: left;
+align-items: flex-start;
+
+}
+
+.buying{
+    color: black;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 360px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.readdiv{
+    width: 150px;
+    
+    background-color: rgb(255, 254, 253);
+}
+
+
+.read{
+    color: black;
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   
+    text-decoration: underline;
+   
+}
+
+.CARDSSS{
+    display: flex;
+    gap: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
