@@ -28,6 +28,11 @@ import one1 from '../Assets/one1.png';
 import PIC2 from '../Assets/PIC2.png';
 import PIC3 from '../Assets/PIC3.png';
 
+import web from '../Assets/web.png';
+import call from '../Assets/call.png';
+import branch from '../Assets/branch.png';
+
+
 const Home = () => {
     return ( 
  <>  
@@ -247,7 +252,7 @@ const Home = () => {
 
 
 
-<section className='CARDSSS_SUS'>
+<section className='CARDSSS_aw'>
   <div className='SUSMAINMAIN'>
       <div className='both'>
           <SubTitle subtitle ="A w a r d s"/>
@@ -296,6 +301,56 @@ const Home = () => {
 
 
 
+            <SubTitle subtitle ="W  e  C  a  r  e"/>
+            <SectionTitle  sectitle  =" Our dedicated team is committed to meeting your "/>
+            <SectionTitle  sectitle  =" Needs "/>
+
+
+        <section className='BIG'>
+
+        <div className='BIGCARD2'>
+              <img src={web} alt="right" />
+           <div className='webdiv'>
+                <Card card ="Online"/>
+
+           <div className='chat'>
+            <p>Chat with 'Zaki' our digital
+              assistant to guide you through our 
+              products and services, or reach 
+              out on social media.</p> 
+              </div>     
+              
+             </div>
+        </div> 
+
+
+        <div className='BIGCARD2'>
+              <img src={branch} alt="right" />
+           <div className='webdiv'>
+                <Card card ="On the phone"/>
+              <div className='chat'>
+            <p>For support, including 
+              emergencies such as cards 
+              closure or immediate critical 
+              feedback.</p> 
+              </div>  
+             </div>
+        </div>   
+
+
+
+        <div className='BIGCARD2'>
+              <img src={call} alt="right" />
+           <div className='webdiv'>
+                <Card card ="In branch"/>
+              <div className='chat'>
+            <p>help you get the service you need.
+              relationship managers are here to 
+              help you get the service you need.</p> 
+              </div>  
+             </div>
+        </div> 
+             </section>
 
 
 

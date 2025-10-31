@@ -271,3 +271,41 @@ align-items: center;
 
    
 }
+
+.CARDSSS_aw{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+    height: 600px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.webdiv{
+align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.BIGCARD2{
+ width: 295px;
+  background-color: #ffffff;
+  border-radius: 5px;
+      height: 100px;
+      display: flex;
+     padding: 30px;
+gap: 4%;
+justify-content: center;
+
+align-items: flex-start
+
+}
+
+.chat{
+    font-size: 14px;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
