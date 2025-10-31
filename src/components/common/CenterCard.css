@@ -1,0 +1,19 @@
+.centercard{
+color: #1858A8;
+font-weight: 600;
+font-size: 20px;
+ font-family: 'Arial', sans-serif;
+ width: 200px;
+padding-bottom: 0;
+margin-bottom: 0;
+
+
+}
+
+.divcenter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+

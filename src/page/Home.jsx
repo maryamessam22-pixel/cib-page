@@ -7,6 +7,7 @@ import SmallMenuTap from '../components/common/SmallMenuTap';
 import SectionTitle from '../components/common/SectionTitle';
 import SubTitle from '../components/common/SubTitle';
 import Card from '../components/common/Card';
+import CenterCard from '../components/common/CenterCard';
 import left from '../Assets/left.png';
 import mid from '../Assets/mid.png';
 import right from '../Assets/right.png';
@@ -63,7 +64,7 @@ const Home = () => {
     <section className='CARDSSS'>
          <div className='leftcard'>
               <img src={left2} alt="left2" />
-                <Card card ="Buying and making a home"/>
+                <CenterCard centercard ="Buying and making a home"/>
                 <p className='buying'>Buying a home can be an emotional process, but it rsquo;s important to approach it logically </p>
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
@@ -72,7 +73,7 @@ const Home = () => {
 
              <div className='leftcard'>
               <img src={mid2} alt="mid2" />
-                <Card card ="Traveling on a budget"/>
+                <CenterCard centercard ="Traveling on a budget"/>
                 <p className='buying'>So for all of you travelers, take a vacation without spending a fortune with these helpful tips and tricks:</p>
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
@@ -81,7 +82,7 @@ const Home = () => {
 
              <div className='leftcard'>
               <img src={right2} alt="right2" />
-                <Card card ="University life tips"/>
+                <CenterCard centercard ="University life tips"/>
                 <p className='buying'>The impact of a good education can be transformative. </p>
                 <div className='readdiv'>
                 <p className='read'>Read more </p>
