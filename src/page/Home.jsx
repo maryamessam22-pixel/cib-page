@@ -18,7 +18,7 @@ import NewsCard from '../components/common/NewsCard';
 import img50 from '../Assets/img50.png';
 import CIB from '../Assets/CIB.jpg';
 import CIB2 from '../Assets/CIB2.png';
-
+import Handshakeimg from '../Assets/handshakimg.png';
 
 const Home = () => {
     return ( 
@@ -168,6 +168,36 @@ const Home = () => {
  <div className='viewmorebtn'>
            <Btn title="View  All News"/>  
        </div>
+
+
+
+<section className="promo-section">
+      <div className="promo-image">
+        <img src={Handshakeimg} alt="Handshake" className="promo-bg" />
+        <div className="promo-content">
+          <h2 className="promo-title">CIB on an international scale</h2>
+          <p className="promo-text">
+            Learn more about CIB's presence outside of Egypt
+          </p>
+          <div className='LEARNBTN'>
+           <Btn title="Learn More"/>  
+       </div>
+        </div>
+      </div>
+    </section>
+
+
+       <div className='both'>
+          <SubTitle subtitle ="S  u  s  t  a  i  n  a  b  l  e    f  i  n  a  n  c  e"/>
+         <SectionTitle  sectitle  ="Sustainability is an integral part of the way we work"/>
+
+       </div>
+
+
+
+
+
+
 
     </>
 );
