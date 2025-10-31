@@ -9,6 +9,7 @@ import SubTitle from '../components/common/SubTitle';
 
 
 
+
 const Home = () => {
     return ( 
  <>  
@@ -27,8 +28,8 @@ const Home = () => {
                 <SmallMenuTap title ="Awards"/>
              </div>
                 
-            <SectionTitle sectitle ="A p p l y  O n l i n e"/>
-            <SubTitle subtitle =" Apply online now for cards and loans with ease!"/>
+            <SubTitle subtitle ="A p p l y  O n l i n e "/>
+            <SectionTitle  sectitle  ="Apply online now for cards and loans with ease!"/>
     </>
 );
 }

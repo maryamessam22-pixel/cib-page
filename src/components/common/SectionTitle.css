@@ -1,10 +1,12 @@
+
 .sec-title{
-    color: black;
+    color: #F58420;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 32px;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 0;
 }

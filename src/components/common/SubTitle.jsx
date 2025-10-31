@@ -3,8 +3,8 @@ import "./SubTitle.css";
 const SubTitle = (props) => {
     return (<>
     
-    
     <p className="subtitle"> {props.subtitle}</p>
+    
     
     </>  );
 }

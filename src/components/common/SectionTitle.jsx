@@ -3,11 +3,7 @@ import "./SectionTitle.css";
 const SectionTitle = (props) => {
     return (  <>
     
-    
     <p className="sec-title"> {props.sectitle}</p>
-    
-    
-    
     
     </>);
 }
