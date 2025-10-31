@@ -20,7 +20,7 @@ const Home = () => {
  <>  
       <Nav />
       <div className='btnn'> 
-      <Btn /> 
+      <Btn title="Discover More"/> 
      </div>
       <Header />
 
@@ -89,8 +89,11 @@ const Home = () => {
              </div>
     </section>
 
-
-
+        <div className='viewmorebtn'>
+           <Btn title="View More"/>  
+       </div>
+           
+   
 
 
 

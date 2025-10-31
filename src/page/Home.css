@@ -100,3 +100,10 @@ align-items: flex-start;
     align-items: center;
     margin-top: 5%;
 }
+
+.viewmorebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}

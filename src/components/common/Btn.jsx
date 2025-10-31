@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "./Btn.css";
-const Btn = () => {
+const Btn = (props) => {
     return ( 
       <>
       <div className='discover'>
   
-       <p className='disc'>Discover more</p>
+       <p className='disc'>{props.title}</p>
 
       </div>
       
